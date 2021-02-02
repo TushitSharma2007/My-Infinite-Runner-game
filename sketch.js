@@ -122,7 +122,7 @@ function spawn_obstacles(){
     fence.addImage("obs",fence_img);
     fence.scale = 0.1;
     fence.velocityX = -7.8;
-    fence.lifetime = 150;
+    fence.lifetime = 200;
   
     obstacles_Group.add(fence);  
   }
@@ -141,7 +141,7 @@ function spawn_food(){
     food.addImage("fff",food_img);
     food.velocityX = -5.8;
     food.scale = 0.2;
-     food.lifetime = 150;
+     food.lifetime = 200;
    
     food_group.add(food);   
   }
