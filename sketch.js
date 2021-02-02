@@ -83,7 +83,7 @@ function draw() {
     score = 0;
     
     restart.visible = true;
-    gameOver.visible = true;
+   // gameOver.visible = true;
        
     horse.visible = false;
     stick.visible = false;
