@@ -83,6 +83,7 @@ function draw() {
     score = 0;
     
     restart.visible = true;
+    ground.visible = false;
    // gameOver.visible = true;
        
     horse.visible = false;
@@ -155,5 +156,6 @@ function reset(){
   stick.visible = true;
   restart.visible = false;
   gameOver.visible = false;
+  ground.visible = true;
   gamestate = PLAY;
 }
